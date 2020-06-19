@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76114B30246A481400F63524 /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76114B2F246A481400F63524 /* InsertionSort.swift */; };
+		76181872247BC71A0081C612 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76181871247BC71A0081C612 /* Vertex.swift */; };
+		76181875247BC7E40081C612 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76181874247BC7E40081C612 /* Edge.swift */; };
+		76181877247BC9690081C612 /* AdjacencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76181876247BC9690081C612 /* AdjacencyList.swift */; };
+		762847182472705B0098129C /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762847172472705B0098129C /* BubbleSort.swift */; };
+		7628471A247275440098129C /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76284719247275440098129C /* SelectionSort.swift */; };
+		7628471D24727CAA0098129C /* MergeTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7628471C24727CAA0098129C /* MergeTraining.swift */; };
+		7628471F247283D00098129C /* QuickTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7628471E247283D00098129C /* QuickTraining.swift */; };
+		762966DA2470FB56001137F9 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762966D92470FB56001137F9 /* MergeSort.swift */; };
+		762966DC24710ABE001137F9 /* ListMergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762966DB24710ABE001137F9 /* ListMergeSort.swift */; };
+		762966DE24710B6D001137F9 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762966DD24710B6D001137F9 /* LinkedList.swift */; };
+		762966E024711B6B001137F9 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762966DF24711B6B001137F9 /* QuickSort.swift */; };
+		762966E224712AA4001137F9 /* HoareQuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762966E124712AA4001137F9 /* HoareQuickSort.swift */; };
+		764C3046246D09B3001427F7 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764C3045246D09B3001427F7 /* Stack.swift */; };
+		764C3048246D11B9001427F7 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764C3047246D11B9001427F7 /* Queue.swift */; };
+		764C304A246D3A08001427F7 /* CircularBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764C3049246D3A08001427F7 /* CircularBuffer.swift */; };
+		76597A3E2474EE2200FD86B8 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76597A3D2474EE2200FD86B8 /* BinarySearchTree.swift */; };
+		76759523247652130057390E /* RedBlackTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76759522247652130057390E /* RedBlackTree.swift */; };
+		76AC0617245716F700FCCF5D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AC0616245716F700FCCF5D /* main.swift */; };
+		76B078022478F7C4000AB994 /* BruteForce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B078012478F7C4000AB994 /* BruteForce.swift */; };
+		76B5E417247BD93800E0AFF6 /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5E416247BD93800E0AFF6 /* BFS.swift */; };
+		76B5E419247BDD0400E0AFF6 /* MST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5E418247BDD0400E0AFF6 /* MST.swift */; };
+		76B5E41B247BEB7500E0AFF6 /* DijkstraNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5E41A247BEB7500E0AFF6 /* DijkstraNode.swift */; };
+		76B5E41E247BEC0800E0AFF6 /* DijkstraEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5E41D247BEC0800E0AFF6 /* DijkstraEdge.swift */; };
+		76B5E420247BEC3300E0AFF6 /* DijkstraGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5E41F247BEC3300E0AFF6 /* DijkstraGraph.swift */; };
+		76B671352476E23A00EF544B /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B671342476E23A00EF544B /* AVLTree.swift */; };
+		76F9D4532472D83C005608AC /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F9D4522472D83C005608AC /* Heap.swift */; };
+		76FAA697246E615D000930CA /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FAA696246E615D000930CA /* PriorityQueue.swift */; };
+		76FAA699246E7EDF000930CA /* StackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FAA698246E7EDF000930CA /* StackList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		76AC0611245716F700FCCF5D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		76114B2F246A481400F63524 /* InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertionSort.swift; sourceTree = "<group>"; };
+		76181871247BC71A0081C612 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		76181874247BC7E40081C612 /* Edge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		76181876247BC9690081C612 /* AdjacencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyList.swift; sourceTree = "<group>"; };
+		762847172472705B0098129C /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
+		76284719247275440098129C /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
+		7628471C24727CAA0098129C /* MergeTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTraining.swift; sourceTree = "<group>"; };
+		7628471E247283D00098129C /* QuickTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTraining.swift; sourceTree = "<group>"; };
+		762966D92470FB56001137F9 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		762966DB24710ABE001137F9 /* ListMergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMergeSort.swift; sourceTree = "<group>"; };
+		762966DD24710B6D001137F9 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		762966DF24711B6B001137F9 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		762966E124712AA4001137F9 /* HoareQuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoareQuickSort.swift; sourceTree = "<group>"; };
+		764C3045246D09B3001427F7 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		764C3047246D11B9001427F7 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		764C3049246D3A08001427F7 /* CircularBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularBuffer.swift; sourceTree = "<group>"; };
+		76597A3D2474EE2200FD86B8 /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
+		76759522247652130057390E /* RedBlackTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBlackTree.swift; sourceTree = "<group>"; };
+		76AC0613245716F700FCCF5D /* alggorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = alggorithm; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AC0616245716F700FCCF5D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		76B078012478F7C4000AB994 /* BruteForce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruteForce.swift; sourceTree = "<group>"; };
+		76B5E416247BD93800E0AFF6 /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
+		76B5E418247BDD0400E0AFF6 /* MST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MST.swift; sourceTree = "<group>"; };
+		76B5E41A247BEB7500E0AFF6 /* DijkstraNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DijkstraNode.swift; sourceTree = "<group>"; };
+		76B5E41D247BEC0800E0AFF6 /* DijkstraEdge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DijkstraEdge.swift; sourceTree = "<group>"; };
+		76B5E41F247BEC3300E0AFF6 /* DijkstraGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DijkstraGraph.swift; sourceTree = "<group>"; };
+		76B671342476E23A00EF544B /* AVLTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTree.swift; sourceTree = "<group>"; };
+		76F9D4522472D83C005608AC /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		76FAA696246E615D000930CA /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		76FAA698246E7EDF000930CA /* StackList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76AC0610245716F700FCCF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76181873247BC7CD0081C612 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				76B5E416247BD93800E0AFF6 /* BFS.swift */,
+				76B5E418247BDD0400E0AFF6 /* MST.swift */,
+				76181871247BC71A0081C612 /* Vertex.swift */,
+				76181874247BC7E40081C612 /* Edge.swift */,
+				76181876247BC9690081C612 /* AdjacencyList.swift */,
+				76B5E41C247BEBFA00E0AFF6 /* Dijkstra */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		76284715247270290098129C /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				76F9D4522472D83C005608AC /* Heap.swift */,
+				76114B2F246A481400F63524 /* InsertionSort.swift */,
+				762966D92470FB56001137F9 /* MergeSort.swift */,
+				762966DB24710ABE001137F9 /* ListMergeSort.swift */,
+				762966DF24711B6B001137F9 /* QuickSort.swift */,
+				762966E124712AA4001137F9 /* HoareQuickSort.swift */,
+				762847172472705B0098129C /* BubbleSort.swift */,
+				76284719247275440098129C /* SelectionSort.swift */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		762847162472703D0098129C /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				764C3045246D09B3001427F7 /* Stack.swift */,
+				764C3047246D11B9001427F7 /* Queue.swift */,
+				764C3049246D3A08001427F7 /* CircularBuffer.swift */,
+				76FAA696246E615D000930CA /* PriorityQueue.swift */,
+				76FAA698246E7EDF000930CA /* StackList.swift */,
+				762966DD24710B6D001137F9 /* LinkedList.swift */,
+				76597A3D2474EE2200FD86B8 /* BinarySearchTree.swift */,
+				76759522247652130057390E /* RedBlackTree.swift */,
+				76B671342476E23A00EF544B /* AVLTree.swift */,
+				76181873247BC7CD0081C612 /* Graph */,
+			);
+			path = Structure;
+			sourceTree = "<group>";
+		};
+		7628471B24727C920098129C /* SortTraining */ = {
+			isa = PBXGroup;
+			children = (
+				7628471C24727CAA0098129C /* MergeTraining.swift */,
+				7628471E247283D00098129C /* QuickTraining.swift */,
+			);
+			path = SortTraining;
+			sourceTree = "<group>";
+		};
+		76AC060A245716F700FCCF5D = {
+			isa = PBXGroup;
+			children = (
+				76AC0615245716F700FCCF5D /* alggorithm */,
+				76AC0614245716F700FCCF5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76AC0614245716F700FCCF5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76AC0613245716F700FCCF5D /* alggorithm */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76AC0615245716F700FCCF5D /* alggorithm */ = {
+			isa = PBXGroup;
+			children = (
+				76AC0616245716F700FCCF5D /* main.swift */,
+				762847162472703D0098129C /* Structure */,
+				7628471B24727C920098129C /* SortTraining */,
+				76284715247270290098129C /* Sort */,
+				76B078002478F3F8000AB994 /* SubstringSearch */,
+			);
+			path = alggorithm;
+			sourceTree = "<group>";
+		};
+		76B078002478F3F8000AB994 /* SubstringSearch */ = {
+			isa = PBXGroup;
+			children = (
+				76B078012478F7C4000AB994 /* BruteForce.swift */,
+			);
+			path = SubstringSearch;
+			sourceTree = "<group>";
+		};
+		76B5E41C247BEBFA00E0AFF6 /* Dijkstra */ = {
+			isa = PBXGroup;
+			children = (
+				76B5E41A247BEB7500E0AFF6 /* DijkstraNode.swift */,
+				76B5E41F247BEC3300E0AFF6 /* DijkstraGraph.swift */,
+				76B5E41D247BEC0800E0AFF6 /* DijkstraEdge.swift */,
+			);
+			path = Dijkstra;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76AC0612245716F700FCCF5D /* alggorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AC061A245716F700FCCF5D /* Build configuration list for PBXNativeTarget "alggorithm" */;
+			buildPhases = (
+				76AC060F245716F700FCCF5D /* Sources */,
+				76AC0610245716F700FCCF5D /* Frameworks */,
+				76AC0611245716F700FCCF5D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = alggorithm;
+			productName = alggorithm;
+			productReference = 76AC0613245716F700FCCF5D /* alggorithm */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76AC060B245716F700FCCF5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = min;
+				TargetAttributes = {
+					76AC0612245716F700FCCF5D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 76AC060E245716F700FCCF5D /* Build configuration list for PBXProject "alggorithm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76AC060A245716F700FCCF5D;
+			productRefGroup = 76AC0614245716F700FCCF5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76AC0612245716F700FCCF5D /* alggorithm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76AC060F245716F700FCCF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B5E41B247BEB7500E0AFF6 /* DijkstraNode.swift in Sources */,
+				76AC0617245716F700FCCF5D /* main.swift in Sources */,
+				76181875247BC7E40081C612 /* Edge.swift in Sources */,
+				764C3046246D09B3001427F7 /* Stack.swift in Sources */,
+				7628471A247275440098129C /* SelectionSort.swift in Sources */,
+				762966DE24710B6D001137F9 /* LinkedList.swift in Sources */,
+				762966DA2470FB56001137F9 /* MergeSort.swift in Sources */,
+				76B5E417247BD93800E0AFF6 /* BFS.swift in Sources */,
+				762847182472705B0098129C /* BubbleSort.swift in Sources */,
+				76759523247652130057390E /* RedBlackTree.swift in Sources */,
+				762966E024711B6B001137F9 /* QuickSort.swift in Sources */,
+				76B078022478F7C4000AB994 /* BruteForce.swift in Sources */,
+				7628471F247283D00098129C /* QuickTraining.swift in Sources */,
+				76114B30246A481400F63524 /* InsertionSort.swift in Sources */,
+				76181877247BC9690081C612 /* AdjacencyList.swift in Sources */,
+				764C3048246D11B9001427F7 /* Queue.swift in Sources */,
+				762966E224712AA4001137F9 /* HoareQuickSort.swift in Sources */,
+				76B5E419247BDD0400E0AFF6 /* MST.swift in Sources */,
+				7628471D24727CAA0098129C /* MergeTraining.swift in Sources */,
+				76F9D4532472D83C005608AC /* Heap.swift in Sources */,
+				762966DC24710ABE001137F9 /* ListMergeSort.swift in Sources */,
+				76597A3E2474EE2200FD86B8 /* BinarySearchTree.swift in Sources */,
+				764C304A246D3A08001427F7 /* CircularBuffer.swift in Sources */,
+				76181872247BC71A0081C612 /* Vertex.swift in Sources */,
+				76FAA699246E7EDF000930CA /* StackList.swift in Sources */,
+				76B5E420247BEC3300E0AFF6 /* DijkstraGraph.swift in Sources */,
+				76FAA697246E615D000930CA /* PriorityQueue.swift in Sources */,
+				76B5E41E247BEC0800E0AFF6 /* DijkstraEdge.swift in Sources */,
+				76B671352476E23A00EF544B /* AVLTree.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		76AC0618245716F700FCCF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76AC0619245716F700FCCF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		76AC061B245716F700FCCF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2P3U86YMV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		76AC061C245716F700FCCF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2P3U86YMV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76AC060E245716F700FCCF5D /* Build configuration list for PBXProject "alggorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AC0618245716F700FCCF5D /* Debug */,
+				76AC0619245716F700FCCF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76AC061A245716F700FCCF5D /* Build configuration list for PBXNativeTarget "alggorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AC061B245716F700FCCF5D /* Debug */,
+				76AC061C245716F700FCCF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76AC060B245716F700FCCF5D /* Project object */;
+}
