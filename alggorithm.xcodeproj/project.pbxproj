@@ -26,6 +26,7 @@
 		76597A3E2474EE2200FD86B8 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76597A3D2474EE2200FD86B8 /* BinarySearchTree.swift */; };
 		76759523247652130057390E /* RedBlackTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76759522247652130057390E /* RedBlackTree.swift */; };
 		76887C55249F75AA00972201 /* Valid PS _ by Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76887C54249F75AA00972201 /* Valid PS _ by Stack.swift */; };
+		76887C57249F930400972201 /* Priority-Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76887C56249F930400972201 /* Priority-Heap.swift */; };
 		768F83BA249E321E004DA53C /* EnumLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768F83B9249E321E004DA53C /* EnumLinkedList.swift */; };
 		76AC0617245716F700FCCF5D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AC0616245716F700FCCF5D /* main.swift */; };
 		76B078022478F7C4000AB994 /* BruteForce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B078012478F7C4000AB994 /* BruteForce.swift */; };
@@ -72,6 +73,7 @@
 		76597A3D2474EE2200FD86B8 /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 		76759522247652130057390E /* RedBlackTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBlackTree.swift; sourceTree = "<group>"; };
 		76887C54249F75AA00972201 /* Valid PS _ by Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid PS _ by Stack.swift"; sourceTree = "<group>"; };
+		76887C56249F930400972201 /* Priority-Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Priority-Heap.swift"; sourceTree = "<group>"; };
 		768F83B9249E321E004DA53C /* EnumLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumLinkedList.swift; sourceTree = "<group>"; };
 		76AC0613245716F700FCCF5D /* alggorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = alggorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AC0616245716F700FCCF5D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				764C3047246D11B9001427F7 /* Queue.swift */,
 				764C3049246D3A08001427F7 /* CircularBuffer.swift */,
 				76FAA696246E615D000930CA /* PriorityQueue.swift */,
+				76887C56249F930400972201 /* Priority-Heap.swift */,
 				76FAA698246E7EDF000930CA /* StackList.swift */,
 				762966DD24710B6D001137F9 /* LinkedList.swift */,
 				76597A3D2474EE2200FD86B8 /* BinarySearchTree.swift */,
@@ -287,6 +290,7 @@
 				76B5E419247BDD0400E0AFF6 /* MST.swift in Sources */,
 				7628471D24727CAA0098129C /* MergeTraining.swift in Sources */,
 				76F9D4532472D83C005608AC /* Heap.swift in Sources */,
+				76887C57249F930400972201 /* Priority-Heap.swift in Sources */,
 				762966DC24710ABE001137F9 /* ListMergeSort.swift in Sources */,
 				76597A3E2474EE2200FD86B8 /* BinarySearchTree.swift in Sources */,
 				764C304A246D3A08001427F7 /* CircularBuffer.swift in Sources */,
