@@ -22,6 +22,29 @@ public class Heap {
         }
     }
     
+    public func center() -> Int?{
+        if self.heap.count > 1 {
+            var index = 0
+            let length = self.heap.count - 1
+            if length%2 == 0 {
+                index = length/2
+            } else {
+                index = length/2 + 1
+            }
+            
+            if length == 1 {
+                index = 1
+            }
+
+            return self.heap[index]
+        }
+        return nil
+    }
+    
+    
+    public func count() -> Int {
+        return self.heap.count - 1
+    }
     
     public func insert(element: Int) {
         self.heap.append(element)
@@ -44,22 +67,23 @@ public class Heap {
     }
     
     public func pop() -> Int? {
-        if let element = self.heap[1] {
-            self.delete()
-            return element
-        } else {
-            return nil
+        if self.heap.count > 1{
+            if let element = self.heap[1] {
+                self.delete()
+                return element
+            }
         }
+        return nil
     }
     
     private func heapify(i: Int) {
         let left = self.leftChildIndex(index: i)
         let right = self.rightChildIndex(index: i)
         var smallest = i
-        if left < self.heap.count - 1 && ordered(self.heap[left]!, self.heap[smallest]!) {
+        if left <= self.heap.count - 1 && ordered(self.heap[left]!, self.heap[smallest]!) {
             smallest = left
         }
-        if right < self.heap.count - 1 && ordered(self.heap[right]!, self.heap[smallest]!) {
+        if right <= self.heap.count - 1 && ordered(self.heap[right]!, self.heap[smallest]!) {
             smallest = right
         }
         if smallest != i {

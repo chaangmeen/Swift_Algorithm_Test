@@ -13,7 +13,7 @@ public class BinaryTreeNode<T: Comparable> {
     public var leftChild: BinaryTreeNode?
     public var rightChild: BinaryTreeNode?
     public weak var parent: BinaryTreeNode?
-    
+    var traverse: [T] = []
     public convenience init(value: T) {
         self.init(value: value, left: nil, right: nil, parent: nil)
     }

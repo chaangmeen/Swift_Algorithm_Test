@@ -27,6 +27,8 @@
 		76759523247652130057390E /* RedBlackTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76759522247652130057390E /* RedBlackTree.swift */; };
 		76887C55249F75AA00972201 /* Valid PS _ by Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76887C54249F75AA00972201 /* Valid PS _ by Stack.swift */; };
 		76887C57249F930400972201 /* Priority-Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76887C56249F930400972201 /* Priority-Heap.swift */; };
+		76891E5B24A1FDB000BF682B /* probFail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76891E5A24A1FDB000BF682B /* probFail.swift */; };
+		76891E5D24A202E500BF682B /* statisticsProb_by Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76891E5C24A202E500BF682B /* statisticsProb_by Sort.swift */; };
 		768F83BA249E321E004DA53C /* EnumLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768F83B9249E321E004DA53C /* EnumLinkedList.swift */; };
 		76AC0617245716F700FCCF5D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AC0616245716F700FCCF5D /* main.swift */; };
 		76B078022478F7C4000AB994 /* BruteForce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B078012478F7C4000AB994 /* BruteForce.swift */; };
@@ -74,6 +76,8 @@
 		76759522247652130057390E /* RedBlackTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBlackTree.swift; sourceTree = "<group>"; };
 		76887C54249F75AA00972201 /* Valid PS _ by Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid PS _ by Stack.swift"; sourceTree = "<group>"; };
 		76887C56249F930400972201 /* Priority-Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Priority-Heap.swift"; sourceTree = "<group>"; };
+		76891E5A24A1FDB000BF682B /* probFail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = probFail.swift; sourceTree = "<group>"; };
+		76891E5C24A202E500BF682B /* statisticsProb_by Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "statisticsProb_by Sort.swift"; sourceTree = "<group>"; };
 		768F83B9249E321E004DA53C /* EnumLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumLinkedList.swift; sourceTree = "<group>"; };
 		76AC0613245716F700FCCF5D /* alggorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = alggorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AC0616245716F700FCCF5D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -160,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				76887C54249F75AA00972201 /* Valid PS _ by Stack.swift */,
+				76891E5C24A202E500BF682B /* statisticsProb_by Sort.swift */,
 			);
 			path = StructureProb;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				76AC0616245716F700FCCF5D /* main.swift */,
+				76891E5A24A1FDB000BF682B /* probFail.swift */,
 				76887C53249F757C00972201 /* StructureProb */,
 				762847162472703D0098129C /* Structure */,
 				7628471B24727C920098129C /* SortTraining */,
@@ -238,7 +244,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = min;
 				TargetAttributes = {
 					76AC0612245716F700FCCF5D = {
@@ -271,6 +277,7 @@
 			files = (
 				76B5E41B247BEB7500E0AFF6 /* DijkstraNode.swift in Sources */,
 				76AC0617245716F700FCCF5D /* main.swift in Sources */,
+				76891E5B24A1FDB000BF682B /* probFail.swift in Sources */,
 				76181875247BC7E40081C612 /* Edge.swift in Sources */,
 				764C3046246D09B3001427F7 /* Stack.swift in Sources */,
 				7628471A247275440098129C /* SelectionSort.swift in Sources */,
@@ -283,6 +290,7 @@
 				76B078022478F7C4000AB994 /* BruteForce.swift in Sources */,
 				7628471F247283D00098129C /* QuickTraining.swift in Sources */,
 				76114B30246A481400F63524 /* InsertionSort.swift in Sources */,
+				76891E5D24A202E500BF682B /* statisticsProb_by Sort.swift in Sources */,
 				768F83BA249E321E004DA53C /* EnumLinkedList.swift in Sources */,
 				76181877247BC9690081C612 /* AdjacencyList.swift in Sources */,
 				764C3048246D11B9001427F7 /* Queue.swift in Sources */,
@@ -423,6 +431,7 @@
 		76AC061B245716F700FCCF5D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R2P3U86YMV;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -434,6 +443,7 @@
 		76AC061C245716F700FCCF5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R2P3U86YMV;
 				ENABLE_HARDENED_RUNTIME = YES;
