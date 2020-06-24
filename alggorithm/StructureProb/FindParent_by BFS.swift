@@ -1,29 +1,29 @@
 import Foundation
 
-class TNode<T: Equatable> : Hashable {
-    static func == (lhs: TNode<T>, rhs: TNode<T>) -> Bool {
-        return lhs.value == rhs.value
-    }
-    
-    let value: T
-    var neighbours: Set<TNode>
-    var visited = false
-    var parent: TNode?
-    
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(123)
-    }
-    
-    init(value: T, neighbours: Set<TNode>) {
-        self.value = value
-        self.neighbours = neighbours
-    }
-    
-    public func addNeighbour(node: TNode) {
-        self.neighbours.insert(node)
-        node.neighbours.insert(self)
-    }
-}
+//class TNode<T: Equatable> : Hashable {
+//    static func == (lhs: TNode<T>, rhs: TNode<T>) -> Bool {
+//        return lhs.value == rhs.value
+//    }
+//
+//    let value: T
+//    var neighbours: Set<TNode>
+//    var visited = false
+//    var parent: TNode?
+//
+//    func hash(into hasher: inout Hasher) {
+//        hasher.combine(123)
+//    }
+//
+//    init(value: T, neighbours: Set<TNode>) {
+//        self.value = value
+//        self.neighbours = neighbours
+//    }
+//
+//    public func addNeighbour(node: TNode) {
+//        self.neighbours.insert(node)
+//        node.neighbours.insert(self)
+//    }
+//}
 //
 //let num = Int(readLine()!)!
 //var nodes:[TNode<Int>] = []
