@@ -50,6 +50,7 @@
 		76C63DB124A484E0009B7163 /* 소수찾기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C63DB024A484E0009B7163 /* 소수찾기.swift */; };
 		76C63DB324A4CBB0009B7163 /* 단지번호붙이기_by BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C63DB224A4CBB0009B7163 /* 단지번호붙이기_by BFS.swift */; };
 		76C63DB524A4EB7B009B7163 /* 여행경로.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C63DB424A4EB7B009B7163 /* 여행경로.swift */; };
+		76C63DB724A508B3009B7163 /* 최단경로 _ by 다익스트라.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C63DB624A508B3009B7163 /* 최단경로 _ by 다익스트라.swift */; };
 		76F9D4532472D83C005608AC /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F9D4522472D83C005608AC /* Heap.swift */; };
 		76FAA697246E615D000930CA /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FAA696246E615D000930CA /* PriorityQueue.swift */; };
 		76FAA699246E7EDF000930CA /* StackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FAA698246E7EDF000930CA /* StackList.swift */; };
@@ -112,6 +113,7 @@
 		76C63DB024A484E0009B7163 /* 소수찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "소수찾기.swift"; sourceTree = "<group>"; };
 		76C63DB224A4CBB0009B7163 /* 단지번호붙이기_by BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "단지번호붙이기_by BFS.swift"; sourceTree = "<group>"; };
 		76C63DB424A4EB7B009B7163 /* 여행경로.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "여행경로.swift"; sourceTree = "<group>"; };
+		76C63DB624A508B3009B7163 /* 최단경로 _ by 다익스트라.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "최단경로 _ by 다익스트라.swift"; sourceTree = "<group>"; };
 		76F9D4522472D83C005608AC /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		76FAA696246E615D000930CA /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		76FAA698246E7EDF000930CA /* StackList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackList.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				7604956824A3CD2900FA1236 /* maze_by DFS.swift */,
 				76C63DAC24A460D2009B7163 /* maze_by BFS.swift */,
 				76C63DB224A4CBB0009B7163 /* 단지번호붙이기_by BFS.swift */,
+				76C63DB624A508B3009B7163 /* 최단경로 _ by 다익스트라.swift */,
 			);
 			path = acmicpc;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				76887C55249F75AA00972201 /* Valid PS _ by Stack.swift in Sources */,
 				7604956924A3CD2900FA1236 /* maze_by DFS.swift in Sources */,
 				76B5E420247BEC3300E0AFF6 /* DijkstraGraph.swift in Sources */,
+				76C63DB724A508B3009B7163 /* 최단경로 _ by 다익스트라.swift in Sources */,
 				76FAA697246E615D000930CA /* PriorityQueue.swift in Sources */,
 				76B5E41E247BEC0800E0AFF6 /* DijkstraEdge.swift in Sources */,
 				76B671352476E23A00EF544B /* AVLTree.swift in Sources */,
