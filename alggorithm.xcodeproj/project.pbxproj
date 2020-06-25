@@ -47,6 +47,9 @@
 		76B671352476E23A00EF544B /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B671342476E23A00EF544B /* AVLTree.swift */; };
 		76C63DAD24A460D2009B7163 /* maze_by BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C63DAC24A460D2009B7163 /* maze_by BFS.swift */; };
 		76C63DAF24A4794A009B7163 /* 타겟넘버.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C63DAE24A4794A009B7163 /* 타겟넘버.swift */; };
+		76C63DB124A484E0009B7163 /* 소수찾기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C63DB024A484E0009B7163 /* 소수찾기.swift */; };
+		76C63DB324A4CBB0009B7163 /* 단지번호붙이기_by BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C63DB224A4CBB0009B7163 /* 단지번호붙이기_by BFS.swift */; };
+		76C63DB524A4EB7B009B7163 /* 여행경로.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C63DB424A4EB7B009B7163 /* 여행경로.swift */; };
 		76F9D4532472D83C005608AC /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F9D4522472D83C005608AC /* Heap.swift */; };
 		76FAA697246E615D000930CA /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FAA696246E615D000930CA /* PriorityQueue.swift */; };
 		76FAA699246E7EDF000930CA /* StackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FAA698246E7EDF000930CA /* StackList.swift */; };
@@ -106,6 +109,9 @@
 		76B671342476E23A00EF544B /* AVLTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTree.swift; sourceTree = "<group>"; };
 		76C63DAC24A460D2009B7163 /* maze_by BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "maze_by BFS.swift"; sourceTree = "<group>"; };
 		76C63DAE24A4794A009B7163 /* 타겟넘버.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "타겟넘버.swift"; sourceTree = "<group>"; };
+		76C63DB024A484E0009B7163 /* 소수찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "소수찾기.swift"; sourceTree = "<group>"; };
+		76C63DB224A4CBB0009B7163 /* 단지번호붙이기_by BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "단지번호붙이기_by BFS.swift"; sourceTree = "<group>"; };
+		76C63DB424A4EB7B009B7163 /* 여행경로.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "여행경로.swift"; sourceTree = "<group>"; };
 		76F9D4522472D83C005608AC /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		76FAA696246E615D000930CA /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		76FAA698246E7EDF000930CA /* StackList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackList.swift; sourceTree = "<group>"; };
@@ -189,6 +195,7 @@
 				76891E6924A3B1D500BF682B /* virus_by DFS, BFS.swift */,
 				7604956824A3CD2900FA1236 /* maze_by DFS.swift */,
 				76C63DAC24A460D2009B7163 /* maze_by BFS.swift */,
+				76C63DB224A4CBB0009B7163 /* 단지번호붙이기_by BFS.swift */,
 			);
 			path = acmicpc;
 			sourceTree = "<group>";
@@ -199,6 +206,8 @@
 				76891E6424A3629900BF682B /* 스킬트리.swift */,
 				76891E6724A3AC9500BF682B /* 탑.swift */,
 				76C63DAE24A4794A009B7163 /* 타겟넘버.swift */,
+				76C63DB024A484E0009B7163 /* 소수찾기.swift */,
+				76C63DB424A4EB7B009B7163 /* 여행경로.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -317,6 +326,7 @@
 				76891E6A24A3B1D500BF682B /* virus_by DFS, BFS.swift in Sources */,
 				76891E6824A3AC9500BF682B /* 탑.swift in Sources */,
 				76C63DAD24A460D2009B7163 /* maze_by BFS.swift in Sources */,
+				76C63DB324A4CBB0009B7163 /* 단지번호붙이기_by BFS.swift in Sources */,
 				76181875247BC7E40081C612 /* Edge.swift in Sources */,
 				764C3046246D09B3001427F7 /* Stack.swift in Sources */,
 				7628471A247275440098129C /* SelectionSort.swift in Sources */,
@@ -327,6 +337,7 @@
 				762847182472705B0098129C /* BubbleSort.swift in Sources */,
 				76C63DAF24A4794A009B7163 /* 타겟넘버.swift in Sources */,
 				76759523247652130057390E /* RedBlackTree.swift in Sources */,
+				76C63DB524A4EB7B009B7163 /* 여행경로.swift in Sources */,
 				762966E024711B6B001137F9 /* QuickSort.swift in Sources */,
 				76B078022478F7C4000AB994 /* BruteForce.swift in Sources */,
 				76891E6124A27AC100BF682B /* FindParent_by BFS.swift in Sources */,
@@ -342,6 +353,7 @@
 				7628471D24727CAA0098129C /* MergeTraining.swift in Sources */,
 				76F9D4532472D83C005608AC /* Heap.swift in Sources */,
 				76887C57249F930400972201 /* Priority-Heap.swift in Sources */,
+				76C63DB124A484E0009B7163 /* 소수찾기.swift in Sources */,
 				762966DC24710ABE001137F9 /* ListMergeSort.swift in Sources */,
 				76597A3E2474EE2200FD86B8 /* BinarySearchTree.swift in Sources */,
 				764C304A246D3A08001427F7 /* CircularBuffer.swift in Sources */,
