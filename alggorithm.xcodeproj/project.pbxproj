@@ -37,6 +37,7 @@
 		76891E6824A3AC9500BF682B /* 탑.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76891E6724A3AC9500BF682B /* 탑.swift */; };
 		76891E6A24A3B1D500BF682B /* virus_by DFS, BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76891E6924A3B1D500BF682B /* virus_by DFS, BFS.swift */; };
 		768F83BA249E321E004DA53C /* EnumLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768F83B9249E321E004DA53C /* EnumLinkedList.swift */; };
+		76942E4D24A5D86D00841497 /* H-Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76942E4C24A5D86D00841497 /* H-Index.swift */; };
 		76AC0617245716F700FCCF5D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AC0616245716F700FCCF5D /* main.swift */; };
 		76B078022478F7C4000AB994 /* BruteForce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B078012478F7C4000AB994 /* BruteForce.swift */; };
 		76B5E417247BD93800E0AFF6 /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B5E416247BD93800E0AFF6 /* BFS.swift */; };
@@ -99,6 +100,7 @@
 		76891E6724A3AC9500BF682B /* 탑.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "탑.swift"; sourceTree = "<group>"; };
 		76891E6924A3B1D500BF682B /* virus_by DFS, BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "virus_by DFS, BFS.swift"; sourceTree = "<group>"; };
 		768F83B9249E321E004DA53C /* EnumLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumLinkedList.swift; sourceTree = "<group>"; };
+		76942E4C24A5D86D00841497 /* H-Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "H-Index.swift"; sourceTree = "<group>"; };
 		76AC0613245716F700FCCF5D /* alggorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = alggorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		76AC0616245716F700FCCF5D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		76B078012478F7C4000AB994 /* BruteForce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BruteForce.swift; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 				76C63DAE24A4794A009B7163 /* 타겟넘버.swift */,
 				76C63DB024A484E0009B7163 /* 소수찾기.swift */,
 				76C63DB424A4EB7B009B7163 /* 여행경로.swift */,
+				76942E4C24A5D86D00841497 /* H-Index.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				76891E6A24A3B1D500BF682B /* virus_by DFS, BFS.swift in Sources */,
 				76891E6824A3AC9500BF682B /* 탑.swift in Sources */,
 				76C63DAD24A460D2009B7163 /* maze_by BFS.swift in Sources */,
+				76942E4D24A5D86D00841497 /* H-Index.swift in Sources */,
 				76C63DB324A4CBB0009B7163 /* 단지번호붙이기_by BFS.swift in Sources */,
 				76181875247BC7E40081C612 /* Edge.swift in Sources */,
 				764C3046246D09B3001427F7 /* Stack.swift in Sources */,
