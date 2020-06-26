@@ -55,6 +55,7 @@
 		76D7A38724A5FE4800263143 /* 큰 수 만들기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D7A38624A5FE4800263143 /* 큰 수 만들기.swift */; };
 		76D7A38924A61E0700263143 /* 기능개발.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D7A38824A61E0700263143 /* 기능개발.swift */; };
 		76D7A38B24A6369C00263143 /* JadenCase 문자열 만들기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D7A38A24A6369C00263143 /* JadenCase 문자열 만들기.swift */; };
+		76D7A38F24A6609C00263143 /* 숫자야구_greedy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D7A38E24A6609C00263143 /* 숫자야구_greedy.swift */; };
 		76F9D4532472D83C005608AC /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F9D4522472D83C005608AC /* Heap.swift */; };
 		76FAA697246E615D000930CA /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FAA696246E615D000930CA /* PriorityQueue.swift */; };
 		76FAA699246E7EDF000930CA /* StackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FAA698246E7EDF000930CA /* StackList.swift */; };
@@ -122,6 +123,7 @@
 		76D7A38624A5FE4800263143 /* 큰 수 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "큰 수 만들기.swift"; sourceTree = "<group>"; };
 		76D7A38824A61E0700263143 /* 기능개발.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "기능개발.swift"; sourceTree = "<group>"; };
 		76D7A38A24A6369C00263143 /* JadenCase 문자열 만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JadenCase 문자열 만들기.swift"; sourceTree = "<group>"; };
+		76D7A38E24A6609C00263143 /* 숫자야구_greedy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "숫자야구_greedy.swift"; sourceTree = "<group>"; };
 		76F9D4522472D83C005608AC /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 		76FAA696246E615D000930CA /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
 		76FAA698246E7EDF000930CA /* StackList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackList.swift; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 				76D7A38624A5FE4800263143 /* 큰 수 만들기.swift */,
 				76D7A38824A61E0700263143 /* 기능개발.swift */,
 				76D7A38A24A6369C00263143 /* JadenCase 문자열 만들기.swift */,
+				76D7A38E24A6609C00263143 /* 숫자야구_greedy.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				762966DC24710ABE001137F9 /* ListMergeSort.swift in Sources */,
 				76597A3E2474EE2200FD86B8 /* BinarySearchTree.swift in Sources */,
 				764C304A246D3A08001427F7 /* CircularBuffer.swift in Sources */,
+				76D7A38F24A6609C00263143 /* 숫자야구_greedy.swift in Sources */,
 				76181872247BC71A0081C612 /* Vertex.swift in Sources */,
 				76FAA699246E7EDF000930CA /* StackList.swift in Sources */,
 				76887C55249F75AA00972201 /* Valid PS _ by Stack.swift in Sources */,
