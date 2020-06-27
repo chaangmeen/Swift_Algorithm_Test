@@ -12,6 +12,10 @@
 		76181872247BC71A0081C612 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76181871247BC71A0081C612 /* Vertex.swift */; };
 		76181875247BC7E40081C612 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76181874247BC7E40081C612 /* Edge.swift */; };
 		76181877247BC9690081C612 /* AdjacencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76181876247BC9690081C612 /* AdjacencyList.swift */; };
+		761D7A3824A6F3C30058F0E7 /* 조이스틱.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761D7A3724A6F3C30058F0E7 /* 조이스틱.swift */; };
+		761D7A3A24A6FF590058F0E7 /* 방문길이.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761D7A3924A6FF590058F0E7 /* 방문길이.swift */; };
+		761D7A3C24A730560058F0E7 /* 위장.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761D7A3B24A730560058F0E7 /* 위장.swift */; };
+		761D7A3E24A748440058F0E7 /* 단어변환.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761D7A3D24A748440058F0E7 /* 단어변환.swift */; };
 		762847182472705B0098129C /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762847172472705B0098129C /* BubbleSort.swift */; };
 		7628471A247275440098129C /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76284719247275440098129C /* SelectionSort.swift */; };
 		7628471D24727CAA0098129C /* MergeTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7628471C24727CAA0098129C /* MergeTraining.swift */; };
@@ -79,6 +83,10 @@
 		76181871247BC71A0081C612 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
 		76181874247BC7E40081C612 /* Edge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
 		76181876247BC9690081C612 /* AdjacencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjacencyList.swift; sourceTree = "<group>"; };
+		761D7A3724A6F3C30058F0E7 /* 조이스틱.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "조이스틱.swift"; sourceTree = "<group>"; };
+		761D7A3924A6FF590058F0E7 /* 방문길이.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "방문길이.swift"; sourceTree = "<group>"; };
+		761D7A3B24A730560058F0E7 /* 위장.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "위장.swift"; sourceTree = "<group>"; };
+		761D7A3D24A748440058F0E7 /* 단어변환.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "단어변환.swift"; sourceTree = "<group>"; };
 		762847172472705B0098129C /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		76284719247275440098129C /* SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
 		7628471C24727CAA0098129C /* MergeTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTraining.swift; sourceTree = "<group>"; };
@@ -226,6 +234,10 @@
 				76D7A38824A61E0700263143 /* 기능개발.swift */,
 				76D7A38A24A6369C00263143 /* JadenCase 문자열 만들기.swift */,
 				76D7A38E24A6609C00263143 /* 숫자야구_greedy.swift */,
+				761D7A3924A6FF590058F0E7 /* 방문길이.swift */,
+				761D7A3724A6F3C30058F0E7 /* 조이스틱.swift */,
+				761D7A3B24A730560058F0E7 /* 위장.swift */,
+				761D7A3D24A748440058F0E7 /* 단어변환.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -346,6 +358,7 @@
 				76891E6824A3AC9500BF682B /* 탑.swift in Sources */,
 				76C63DAD24A460D2009B7163 /* maze_by BFS.swift in Sources */,
 				76942E4D24A5D86D00841497 /* H-Index.swift in Sources */,
+				761D7A3A24A6FF590058F0E7 /* 방문길이.swift in Sources */,
 				76C63DB324A4CBB0009B7163 /* 단지번호붙이기_by BFS.swift in Sources */,
 				76181875247BC7E40081C612 /* Edge.swift in Sources */,
 				764C3046246D09B3001427F7 /* Stack.swift in Sources */,
@@ -357,6 +370,7 @@
 				76B5E417247BD93800E0AFF6 /* BFS.swift in Sources */,
 				76891E6324A35C0100BF682B /* example_by DFS,BFS.swift in Sources */,
 				762847182472705B0098129C /* BubbleSort.swift in Sources */,
+				761D7A3C24A730560058F0E7 /* 위장.swift in Sources */,
 				76C63DAF24A4794A009B7163 /* 타겟넘버.swift in Sources */,
 				76759523247652130057390E /* RedBlackTree.swift in Sources */,
 				76C63DB524A4EB7B009B7163 /* 여행경로.swift in Sources */,
@@ -370,6 +384,7 @@
 				76181877247BC9690081C612 /* AdjacencyList.swift in Sources */,
 				76891E6524A3629900BF682B /* 스킬트리.swift in Sources */,
 				764C3048246D11B9001427F7 /* Queue.swift in Sources */,
+				761D7A3824A6F3C30058F0E7 /* 조이스틱.swift in Sources */,
 				762966E224712AA4001137F9 /* HoareQuickSort.swift in Sources */,
 				76B5E419247BDD0400E0AFF6 /* MST.swift in Sources */,
 				7628471D24727CAA0098129C /* MergeTraining.swift in Sources */,
@@ -377,6 +392,7 @@
 				76887C57249F930400972201 /* Priority-Heap.swift in Sources */,
 				76C63DB124A484E0009B7163 /* 소수찾기.swift in Sources */,
 				762966DC24710ABE001137F9 /* ListMergeSort.swift in Sources */,
+				761D7A3E24A748440058F0E7 /* 단어변환.swift in Sources */,
 				76597A3E2474EE2200FD86B8 /* BinarySearchTree.swift in Sources */,
 				764C304A246D3A08001427F7 /* CircularBuffer.swift in Sources */,
 				76D7A38F24A6609C00263143 /* 숫자야구_greedy.swift in Sources */,
